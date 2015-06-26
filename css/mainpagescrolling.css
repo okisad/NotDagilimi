@@ -1,0 +1,82 @@
+body button{
+    border-radius: 12px!important;
+}
+body input{
+    border-radius: 12px!important;
+}
+
+/*.navbar-nav{
+    margin:4.75px 0px!important;
+}*/
+
+.navbar-exit-button{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navbar-elements-container{
+    width: 110%;
+}
+.intro-text{
+    font-size: 6.75em;
+    text-align: center;
+}
+
+.intro-text .glyphicon{
+    color: #d9534f;
+}
+
+.alert.alert-warning{
+    border-radius: 24px;
+}
+
+.lock-symbol{
+    font-size: 6.75em;
+    color: #f0ad4e;
+}
+
+div[data-anchor='notdagilimi-page'] h2{
+    font-size: 6.0em;
+}
+
+h2{
+    font-size: 6.0em!important;
+}
+
+div[data-anchor='notdagilimi-page'] hr{
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+div[data-anchor='unlock-page'] .form-group{
+    margin-bottom: 0px;
+
+}
+
+div[data-anchor='unlock-page'] input{
+    font-size: 18px;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+
+div[data-anchor='unlock-page'] .form-group:nth-of-type(1) input{
+     border-bottom-left-radius: 0px!important;
+     border-bottom-right-radius: 0px!important;
+ }
+
+div[data-anchor='unlock-page'] .form-group:nth-of-type(2) input{
+    border-radius: 0px!important;
+}
+
+
+div[data-anchor='unlock-page'] .form-group:nth-of-type(3) input{
+    border-top-left-radius: 0px!important;
+    border-top-right-radius: 0px!important;
+}
+
+.unlock-page-first-section{
+    border-right: 2px solid #ffffff;
+}
+
+nav{
+    background-color: rgba(10, 38, 65, 0.67)!important;
+}
