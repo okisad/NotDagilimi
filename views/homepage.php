@@ -7,7 +7,7 @@
     <link href="../css/googleOpenSansFont.css" rel='stylesheet' type='text/css'>
     <link href="../css/bootstrap1.min.css" rel="stylesheet">
     <link href="../css/homepage.css" rel="stylesheet" >
-    <?php require_once('../isLoggedControl.php') ?>
+    <!--php require_once('../isLoggedControl.php') ?>-->
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
