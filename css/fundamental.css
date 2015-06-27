@@ -172,8 +172,8 @@ input{
 div.navbar.navbar-fixed-bottom .container{
     padding-right: 15px;
     padding-left: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-bottom: 0   px;
 }
 
 div.navbar.navbar-fixed-bottom .nav a{

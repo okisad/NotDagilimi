@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0499ca6-eb04-4d3a-855f-46ca8ea4d006" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fundamental.css" afterPath="$PROJECT_DIR$/css/fundamental.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/homepage.php" afterPath="$PROJECT_DIR$/views/homepage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/mainpage.php" afterPath="$PROJECT_DIR$/views/mainpage.php" />
     </list>
     <ignored path="notdagilimi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="homepage.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homepage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/homepage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5080645" vertical-offset="255" max-vertical-offset="1770">
-              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state vertical-scroll-proportion="39.791668" vertical-offset="1150" max-vertical-offset="1770">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -51,18 +51,18 @@
       <file leaf-file-name="mainpagescrolling.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/mainpagescrolling.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="1350">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
               <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fundamental.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fundamental.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/fundamental.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.11111" vertical-offset="0" max-vertical-offset="4035">
-              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.30952382" vertical-offset="2430" max-vertical-offset="4035">
+              <caret line="175" column="24" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -102,9 +102,9 @@
       <list>
         <option value="$PROJECT_DIR$/css/mainpagescrolling.css" />
         <option value="$PROJECT_DIR$/css/homepage.css" />
-        <option value="$PROJECT_DIR$/css/fundamental.css" />
         <option value="$PROJECT_DIR$/views/mainpage.php" />
         <option value="$PROJECT_DIR$/views/homepage.php" />
+        <option value="$PROJECT_DIR$/css/fundamental.css" />
       </list>
     </option>
   </component>
@@ -338,18 +338,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/fundamental.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.11111" vertical-offset="0" max-vertical-offset="4035">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/mainpage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.235294" vertical-offset="0" max-vertical-offset="3705">
           <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="39.791668" vertical-offset="1150" max-vertical-offset="1770">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -362,10 +362,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/homepage.php">
+    <entry file="file://$PROJECT_DIR$/css/fundamental.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5080645" vertical-offset="255" max-vertical-offset="1770">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.30952382" vertical-offset="2430" max-vertical-offset="4035">
+          <caret line="175" column="24" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="24" />
           <folding />
         </state>
       </provider>
