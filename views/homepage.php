@@ -11,7 +11,7 @@
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
+    <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-login">
                 <span class="sr-only">Togglse navigation</span>
@@ -36,7 +36,7 @@
         </div>
     </div>
 </nav>
-<div class="topbuffer10 container">
+<div class="topbuffer10 container-fluid">
     <div class="hidden-xs col-sm-6" id="textDiv">
         <h2 class="text-uppercase text-center topbuffer8"><strong>Not Dağılımlarını Öğrenmek İçin Doğru Adres</strong></h2>
 

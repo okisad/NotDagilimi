@@ -10,7 +10,6 @@
     <link href="../css/fundamental.css" rel="stylesheet">
     <link href="../css/jquery.fullPage.css" rel="stylesheet">
     <link href="../css/mainpagescrolling.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 
     <script src="../js/jquery-2.1.3.min.js"></script>
