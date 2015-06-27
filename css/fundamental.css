@@ -185,9 +185,10 @@ nav{
     background-color: rgba(10, 38, 65, 1)!important;
 }
 
+
 .footer {
     position: absolute;
-    bottom: 0;
+    bottom: 0!important;
     width: 100%;
     background-color: #0A2641;
     color: #ffffff;
