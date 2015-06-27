@@ -47,7 +47,6 @@
             });
         });
     </script>
-    <?php  require_once('../isLoggedControl.php') ?>
 </head>
 <body>
 
