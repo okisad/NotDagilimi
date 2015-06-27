@@ -14,11 +14,8 @@ body input{
     margin-right: 0px;
 }
 
-.navbar-elements-container{
-    width: 110%;
-}
 .intro-text{
-    font-size: 6.75em;
+    font-size: 4.75em;
     text-align: center;
 }
 
@@ -31,16 +28,16 @@ body input{
 }
 
 .lock-symbol{
-    font-size: 6.75em;
+    font-size: 4.75em;
     color: #f0ad4e;
 }
 
 div[data-anchor='notdagilimi-page'] h2{
-    font-size: 6.0em;
+    font-size: 4.0em;
 }
 
 h2{
-    font-size: 6.0em!important;
+    font-size: 4.0em!important;
 }
 
 div[data-anchor='notdagilimi-page'] hr{
