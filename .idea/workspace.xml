@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0499ca6-eb04-4d3a-855f-46ca8ea4d006" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mainpagescrolling.css" afterPath="$PROJECT_DIR$/css/mainpagescrolling.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/mainpage.php" afterPath="$PROJECT_DIR$/views/mainpage.php" />
     </list>
     <ignored path="notdagilimi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,20 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainpage.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainpage.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/mainpage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.0" vertical-offset="0" max-vertical-offset="3315">
-              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.15322581" vertical-offset="2155" max-vertical-offset="3315">
+              <caret line="150" column="42" selection-start-line="150" selection-start-column="42" selection-end-line="150" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainpagescrolling.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainpagescrolling.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/mainpagescrolling.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33789954" vertical-offset="363" max-vertical-offset="1260">
+            <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1260">
               <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
               <folding />
             </state>
@@ -66,8 +66,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/views/homepage.php" />
-        <option value="$PROJECT_DIR$/views/mainpage.php" />
         <option value="$PROJECT_DIR$/css/mainpagescrolling.css" />
+        <option value="$PROJECT_DIR$/views/mainpage.php" />
       </list>
     </option>
   </component>
@@ -233,18 +233,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/mainpage.php">
+    <entry file="file://$PROJECT_DIR$/css/mainpagescrolling.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.0" vertical-offset="0" max-vertical-offset="3315">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1260">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mainpagescrolling.css">
+    <entry file="file://$PROJECT_DIR$/views/mainpage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33789954" vertical-offset="363" max-vertical-offset="1260">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.15322581" vertical-offset="2155" max-vertical-offset="3315">
+          <caret line="150" column="42" selection-start-line="150" selection-start-column="42" selection-end-line="150" selection-end-column="42" />
           <folding />
         </state>
       </provider>

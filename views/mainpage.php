@@ -148,7 +148,7 @@
         </div>
         <div class="section" data-anchor="unlock-page">
             <div class="container">
-                <div class="row topbuffer5">
+                <div class="row topbuffer2">
                     <div class="unlock-page-first-section col-lg-7">
                         <h1 class="text-uppercase text-center">Burayı Okuyunuz</h1>
                         <div class="topbuffer4" id="kilitacbilgilendirme">
