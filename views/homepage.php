@@ -2,7 +2,7 @@
 <html>
 <head lang="tr">
     <meta charset="utf-8">
-    <title>Home Screen</title>
+    <title>Hme Screen</title>
     <link href="../css/fundamental.css" rel="stylesheet">
     <link href="../css/googleOpenSansFont.css" rel='stylesheet' type='text/css'>
     <link href="../css/bootstrap1.min.css" rel="stylesheet">
@@ -87,7 +87,9 @@
 
     </div>
 </div>
-<footer class="footer">
+
+
+<div class="navbar navbar-fixed-bottom foot">
     <div class="container">
         <div class="row">
             <div class="col-xs-1 col-xs-offset-1">
@@ -97,7 +99,7 @@
             </div>
         </div>
     </div>
-</footer>
+</div>
 <script src="../js/jquery-2.1.3.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/jquery.easing.min.js"></script>
@@ -107,4 +109,5 @@
 <script src="../js/freelancer.js"></script>
 <script src="../js/error-handle.js"></script>
 </body>
+
 </html>

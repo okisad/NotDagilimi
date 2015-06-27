@@ -40,6 +40,14 @@
     .collapse.in{
         display:block !important;
     }
+    .navbar-fixed-bottom .navbar-nav{
+        margin-top: 0px;
+    }
+
+    .navbar-fixed-bottom .navbar-nav li a{
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
 
 }
 
@@ -161,6 +169,23 @@ input{
     padding-top: 10px;
 }
 
+div.navbar.navbar-fixed-bottom .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+div.navbar.navbar-fixed-bottom .nav a{
+    font-size: 12px;
+}
+
+div.navbar.navbar-fixed-bottom p{
+    font-size: 13px!important;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
 .navbar{
     padding: 15px 0;
 }
@@ -191,6 +216,15 @@ nav{
     bottom: 0!important;
     width: 100%;
     background-color: #0A2641;
+    color: #ffffff;
+}
+
+
+div.navbar-fixed-bottom{
+    /*position: absolute;
+    bottom: 0!important;
+    width: 100%;*/
+    background-color: #0A2641!important;
     color: #ffffff;
 }
 

@@ -10,6 +10,7 @@
     <link href="../css/fundamental.css" rel="stylesheet">
     <link href="../css/jquery.fullPage.css" rel="stylesheet">
     <link href="../css/mainpagescrolling.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 
     <script src="../js/jquery-2.1.3.min.js"></script>
@@ -96,7 +97,7 @@
     <div class="section" data-anchor="intro-page">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 topbuffer8">
+                <div class="col-md-12 topbuffer8">
                     <div class="intro-text text-uppercase">
                         <span class="name">Not Dağılımları</span>
                         <hr class="star-light">
@@ -114,7 +115,7 @@
     <div class="section" data-anchor="notdagilimi-page">
         <div class="container">
             <div class="row topbuffer3">
-                <div class="col-lg-12 text-center">
+                <div class="col-md-12 text-center">
                     <h2 class="text-uppercase">Not Dağılımları</h2>
                     <hr class="star-light">
                     <span class="glyphicon glyphicon-lock lock-symbol topbuffer2" aria-hidden="true"></span>
@@ -137,7 +138,7 @@
     <div class="section" data-anchor="transkript-page">
         <div class="container">
             <div class="row topbuffer3">
-                <div class="col-lg-12 text-center">
+                <div class="col-md-12 text-center">
                     <h2 class="text-uppercase">TRANSKRİPT HESAPLAMA</h2>
                     <hr class="star-light">
                     <span class="glyphicon glyphicon-lock lock-symbol topbuffer2" aria-hidden="true"></span>
@@ -160,7 +161,7 @@
     <div class="section" data-anchor="unlock-page">
         <div class="container">
             <div class="row topbuffer5">
-                <div class="unlock-page-first-section col-lg-7 hidden-xs hidden-sm hidden-md">
+                <div class="unlock-page-first-section col-md-7 hidden-xs hidden-sm">
                     <h1 class="text-uppercase text-center">Burayı Okuyunuz</h1>
 
                     <div class="topbuffer4" id="kilitacbilgilendirme">
@@ -180,7 +181,7 @@
                         <p class="text-success">- Sis bilgilerinizi doğru girdiğiniz taktirde kilidiniz açılacaktır.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-lg-offset-1 col-xs-12" id="itu-register-screen">
+                <div class="col-md-4 col-md-offset-1 col-xs-12" id="itu-register-screen">
                     <h1 class="text-uppercase text-center">İTÜ SİS BİLGİLERİ</h1>
 
                     <form data-toggle="validator" id="itusisform" method="post" action="../mainpageback.php"
@@ -212,7 +213,7 @@
          <div class="slide" data-anchor="sli2">slide 2</div>
          <div class="slide" data-anchor="sli3">slide 3</div>
      </div>-->
-    <footer class="footer">
+    <div class="navbar navbar-fixed-bottom foot">
         <div class="container">
             <div class="col-xs-8">
                 <ul id="myMenu" class="nav navbar-nav">
@@ -234,7 +235,7 @@
                 <p class="navbar-right">© 2015 Not Dağılımı</p>
             </div>
         </div>
-    </footer>
+    </div>
 </div>
 
 
