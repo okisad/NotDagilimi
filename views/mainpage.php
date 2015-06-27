@@ -163,7 +163,7 @@
                             <p class="text-success">- Sis bilgilerinizi doğru girdiğiniz taktirde kilidiniz açılacaktır.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-lg-offset-1">
+                    <div class="col-lg-4 col-lg-offset-1" id="itu-register-screen">
                         <h1 class="text-uppercase text-center">İTÜ SİS BİLGİLERİ</h1>
                         <form data-toggle="validator" id="itusisform" method="post" action="../mainpageback.php"
                               name="itusisform" role="form" class="topbuffer8">
