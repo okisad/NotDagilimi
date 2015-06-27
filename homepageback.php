@@ -8,11 +8,6 @@ require_once('classes/registrationClass.php');
 $mainLogin = new login();
 
 
-if($mainLogin->isSetCookie()){
-
-    header('Location: http://localhost/~oktaysahinsadoglu/NotDagilimi/views/mainpage.php');
-
-}else{
 
     if(isset($_POST['loginButton'])){
 
@@ -58,18 +53,11 @@ if($mainLogin->isSetCookie()){
             header("Location: ".$mainPageUrl);
         }
 
-    }else{
-
-        $homePageUrl = 'http://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']).'/views/homepage.php';
-
-        header("Location: ".$homePageUrl);
-
     }
 
 
 
 
 
-}
 
 

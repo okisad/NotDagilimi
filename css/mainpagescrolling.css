@@ -56,9 +56,9 @@ div[data-anchor='unlock-page'] input{
 }
 
 div[data-anchor='unlock-page'] .form-group:nth-of-type(1) input{
-     border-bottom-left-radius: 0px!important;
-     border-bottom-right-radius: 0px!important;
- }
+    border-bottom-left-radius: 0px!important;
+    border-bottom-right-radius: 0px!important;
+}
 
 div[data-anchor='unlock-page'] .form-group:nth-of-type(2) input{
     border-radius: 0px!important;

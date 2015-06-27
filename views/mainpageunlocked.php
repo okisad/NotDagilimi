@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
     <meta charset="utf-8">
-    <title>Not Dağılımı</title>
+    <title>Not Dılımı</title>
     <link href="../css/bootstrap1.min.css" rel="stylesheet">
     <link href="../css/fundamental.css" rel="stylesheet">
     <link href="../font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
