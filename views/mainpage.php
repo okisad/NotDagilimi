@@ -10,6 +10,7 @@
     <link href="../css/fundamental.css" rel="stylesheet">
     <link href="../css/jquery.fullPage.css" rel="stylesheet">
     <link href="../css/mainpagescrolling.css" rel="stylesheet">
+    <link href="../css/animsition.min.css" rel="stylesheet">
 
 
     <script src="../js/jquery-2.1.3.min.js"></script>
@@ -27,8 +28,8 @@
                 loopTop: true,
                 loopBottom: true,
                 loopHorizontal: true,
-                autoScrolling: false, /* true olursa otomatik sayfaya gider */
-                fitToSection: false, /* iki sayfa ortasında kalınırsa eğer onu hangisine yakınsa oraya götürür*/
+                autoScrolling: true, /* true olursa otomatik sayfaya gider */
+                fitToSection: true, /* iki sayfa ortasında kalınırsa eğer onu hangisine yakınsa oraya götürür*/
                 //scrollBar:true,
                 paddingTop: '100px',
                 /*fixedElements:'#name',*/
@@ -42,14 +43,38 @@
                 showActiveTooltip: false,
                 slidesNavigation: false,
                 keyboardScrolling: true,
-                scrollingSpeed: 1200
+                scrollingSpeed: 700
 
+            });
+
+            $(".animsition").animsition({
+
+                inClass: 'fade-in',
+                outClass: 'flip-out-y-fr',
+                inDuration: 1500,
+                outDuration: 800,
+                linkElement: '.animsition-link',
+                // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+                loading: true,
+                loadingParentElement: 'body', //animsition wrapper element
+                loadingClass: 'animsition-loading',
+                unSupportCss: ['animation-duration',
+                    '-webkit-animation-duration',
+                    '-o-animation-duration'
+                ],
+                //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+                //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+
+                overlay: false,
+
+                overlayClass: 'animsition-overlay-slide',
+                overlayParentElement: 'body'
             });
         });
     </script>
     <!--   require_once('../isLoggedControl.php') -->
 </head>
-<body>
+<body class="animsition">
 
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -104,9 +129,10 @@
                     </div>
                     <div class="page-scroll alert alert-warning topbuffer5 text-center text-uppercase">
                         <p class="text-danger ">ÜYELİĞİNİZ AKTİVE EDİLMEMİŞTİR</p>
-                        <a href="#unlock-page">AKTİF ETMEK İÇİN LÜTFEN TIKLAYINIZ</a>
+                        <div class="col-xs-12">
+                            <a href="#unlock-page">AKTİF ETMEK İÇİN LÜTFEN TIKLAYINIZ</a>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -150,7 +176,7 @@
                 <div class="page-scroll alert alert-warning text-center text-uppercase">
                     <p class="text-danger">ÜYELİĞİNİZ AKTİVE EDİLMEMİŞTİR</p>
 
-                    <div>
+                    <div class="col-xs-12">
                         <a href="#unlock-page">AKTİF ETMEK İÇİN LÜTFEN TIKLAYINIZ</a>
                     </div>
                 </div>
@@ -160,7 +186,7 @@
     <div class="section" data-anchor="unlock-page">
         <div class="container">
             <div class="row topbuffer5">
-                <div class="unlock-page-first-section col-md-7 hidden-xs hidden-sm">
+                <div class="unlock-page-first-section col-xs-7">
                     <h1 class="text-uppercase text-center">Burayı Okuyunuz</h1>
 
                     <div class="topbuffer4" id="kilitacbilgilendirme">
@@ -180,7 +206,7 @@
                         <p class="text-success">- Sis bilgilerinizi doğru girdiğiniz taktirde kilidiniz açılacaktır.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-md-offset-1 col-xs-12" id="itu-register-screen">
+                <div class="col-xs-4 col-xs-offset-1" id="itu-register-screen">
                     <h1 class="text-uppercase text-center">İTÜ SİS BİLGİLERİ</h1>
 
                     <form data-toggle="validator" id="itusisform" method="post" action="../mainpageback.php"
@@ -198,11 +224,36 @@
                                    placeholder="İTÜ SİS pin">
                         </div>
                         <div class="form-group topbuffer4">
-                            <button class="btn btn-lg btn-success btn-block" type="submit" name="itusisformbutton">
-                                Gönder
-                            </button>
+                            <a href="mainpageunlocked.php" class="animsition-link" data-animsition-out-duration="2000">
+                                <button class="btn btn-lg btn-success btn-block" type="submit" name="itusisformbutton">
+                                    Gönder
+                                </button>
+                            </a>
                         </div>
                     </form>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-fixed-bottom foot">
+            <div class="container">
+                <div class="col-xs-8">
+                    <ul id="myMenu" class="nav navbar-nav">
+                        <li class="hidden">
+                            <a href="#intro-page"></a>
+                        </li>
+                        <li data-menuanchor="notdagilimi-page">
+                            <a id="notdagilimlarihref" href="#notdagilimi-page">NOT DAĞILIMLARI</a>
+                        </li>
+                        <li data-menuanchor="transkript-page">
+                            <a id="transkripthref" href="#transkript-page">TRANSKRİPT HESAPLAMA</a>
+                        </li>
+                        <li data-menuanchor="unlock-page">
+                            <a id="kilitachref" href="#unlock-page">KİLİT AÇ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-4">
+                    <p class="navbar-right">© 2015 Not Dağılımı</p>
                 </div>
             </div>
         </div>
@@ -212,31 +263,8 @@
          <div class="slide" data-anchor="sli2">slide 2</div>
          <div class="slide" data-anchor="sli3">slide 3</div>
      </div>-->
-    <div class="navbar navbar-fixed-bottom foot">
-        <div class="container">
-            <div class="col-xs-8">
-                <ul id="myMenu" class="nav navbar-nav">
-                    <li class="hidden">
-                        <a href="#intro-page"></a>
-                    </li>
-                    <li data-menuanchor="notdagilimi-page">
-                        <a id="notdagilimlarihref" href="#notdagilimi-page">NOT DAĞILIMLARI</a>
-                    </li>
-                    <li data-menuanchor="transkript-page">
-                        <a id="transkripthref" href="#transkript-page">TRANSKRİPT HESAPLAMA</a>
-                    </li>
-                    <li data-menuanchor="unlock-page">
-                        <a id="kilitachref" href="#unlock-page">KİLİT AÇ</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-xs-4">
-                <p class="navbar-right">© 2015 Not Dağılımı</p>
-            </div>
-        </div>
-    </div>
 </div>
 
-
+<script src="../js/jquery.animsition.min.js"></script>
 </body>
 </html>

@@ -354,3 +354,7 @@ footer .footer-below {
 .page-scroll.alert.alert-warning{
     border-radius: 24px;
 }
+
+.foot{
+    position: absolute!important;
+}

@@ -20,12 +20,15 @@ body input{
     margin-right: 0px;
 }
 
-.intro-text{
-    font-size: 4.75em;
+.intro-text {
     text-align: center;
 }
 
-.intro-text .glyphicon{
+.intro-text span{
+    font-size: 4.75em;
+}
+
+.intro-text .glyphicon.glyphicon-remove-circle{
     color: #d9534f;
 }
 
@@ -83,3 +86,41 @@ div[data-anchor='unlock-page'] .form-group:nth-of-type(3) input{
 nav{
     background-color: rgba(10, 38, 65, 0.67)!important;
 }
+
+.alert.alert-warning div{
+    margin-top: 50px;
+}
+
+.foot{
+    position: absolute;
+    bottom: -1px;
+}
+
+.glyphicon{
+    font-size: 4.75em;
+}
+
+.tick-symbol{
+    color: #5cb85c;
+}
+
+.page-scroll.alert.alert-warning{
+    height: 80px;
+    line-height: 50px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.page-scroll.alert.alert-warning p{
+    vertical-align: middle;
+}
+
+.page-scroll.alert.alert-warning .glyphicon{
+    font-size: 3.0em;
+}
+
+div[data-anchor='intro-page'] .glyphicon.glyphicon-menu-down{
+    margin-top: 50px;
+    font-size: 3.0em;
+}
+div[data-anchor='intro-page']

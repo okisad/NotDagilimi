@@ -2,7 +2,7 @@
 <html>
 <head lang="tr">
     <meta charset="utf-8">
-    <title>Hme Screen</title>
+    <title>Home Screen</title>
     <link href="../css/fundamental.css" rel="stylesheet">
     <link href="../css/googleOpenSansFont.css" rel='stylesheet' type='text/css'>
     <link href="../css/bootstrap1.min.css" rel="stylesheet">
@@ -21,8 +21,9 @@
             </button>
             <a class="navbar-brand" href="homepage.php">NOT DAĞILIMI</a>
         </div>
+        <a href="mainpage.php">
         <div class="collapse navbar-collapse" id="collapse-login">
-            <form data-toggle="validator" class="navbar-form navbar-right text-right" id="signin" role="form" method="post" action="../homepageback.php">
+            <form data-toggle="validator" class="navbar-form navbar-right text-right" id="signin" role="form" method="post">
                 <div class="form-group">
                     <input type="text" name="email" placeholder="Email Adresi" class="form-control" data-error="Email adres geçerli değil" required/>
                 </div>
@@ -34,6 +35,7 @@
                 </div>
             </form>
         </div>
+        </a>
     </div>
 </nav>
 <div class="topbuffer10 container">
